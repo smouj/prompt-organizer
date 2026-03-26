@@ -10,9 +10,24 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/smouj/prompt-organizer?style=flat-square)](https://github.com/smouj/prompt-organizer/releases)
 
-[Demo](#demo) • [Características](#características) • [Instalación](#instalación) • [Uso](#uso) • [Contribuir](#contribuir)
+[Demo](#-demo) • [Características](#-características) • [Instalación](#-instalación) • [Uso](#-uso) • [Contribuir](#-contribuir)
 
+</div>
+
+---
+
+## 📸 Demo
+
+### Desktop
+
+![Desktop Screenshot](public/screenshots/desktop.png)
+
+### Mobile
+
+<div align="center">
+<img src="public/screenshots/mobile.png" alt="Mobile Screenshot" width="300">
 </div>
 
 ---
