@@ -384,15 +384,11 @@ export function PromptOrganizerPage() {
                   <div className="mb-5 flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
                     <div>
                       <div className="mb-4 flex items-center gap-4">
-                        <BrandMark />
-                        <div>
-                          <p className="text-[11px] uppercase tracking-[0.32em] text-stone-400">
-                            Prompt OS
-                          </p>
-                          <h1 className="mt-1 text-2xl font-semibold tracking-tight text-stone-100 md:text-3xl">
-                            Organizador de Prompts
-                          </h1>
-                        </div>
+                        <img
+                          src="/logo.png"
+                          alt="Prompt Organizer"
+                          className="h-16 w-auto md:h-20"
+                        />
                       </div>
                       <p className="max-w-3xl text-sm leading-6 text-stone-300 md:text-base">
                         Herramienta visual para organizar prompts, auditorías, bugs y backlog

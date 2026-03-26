@@ -12,6 +12,7 @@ import { cn } from '@/lib/utils';
 interface BrandMarkProps {
   className?: string;
   size?: 'sm' | 'md' | 'lg';
+  showBackground?: boolean;
 }
 
 const SIZE_CLASSES = {
@@ -26,13 +27,14 @@ const ICON_SIZE_CLASSES = {
   lg: 'h-8 w-8',
 };
 
-export function BrandMark({ className, size = 'md' }: BrandMarkProps) {
+export function BrandMark({ className, size = 'md', showBackground = true }: BrandMarkProps) {
   const [logoVisible, setLogoVisible] = useState(true);
 
   return (
     <div
       className={cn(
-        'flex items-center justify-center border border-stone-500 bg-stone-900',
+        'flex items-center justify-center overflow-hidden',
+        showBackground && 'bg-stone-950 border border-stone-700',
         SIZE_CLASSES[size],
         className
       )}
@@ -41,7 +43,7 @@ export function BrandMark({ className, size = 'md' }: BrandMarkProps) {
         <img
           src="/icons/logo.png"
           alt="Prompt Organizer Logo"
-          className="h-3/4 w-3/4 object-contain"
+          className="h-full w-full object-contain p-0.5"
           onError={() => setLogoVisible(false)}
         />
       ) : (

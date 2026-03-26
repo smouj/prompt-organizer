@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Prompt Organizer](public/icons/icon-1024.png)
+<img src="public/logo.png" alt="Prompt Organizer" width="400">
 
 **Herramienta visual para organizar prompts, auditorías, bugs y backlog técnico**
 
